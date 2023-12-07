@@ -1,0 +1,119 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chop Chronicles</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">
+              <img
+                class="banner"
+                src="images/bannerimg.jpg"
+                alt="banner"
+                height="100"
+                width="100"
+            /></a>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="specials.html">Specials</a></li>
+          <li><a href="training.html">Training</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="centertext">Connect with Us</h1>
+      <p class="centertext">
+        The best way to get in contact with is is to fill out the form below.
+      </p>
+      <p class="centertext">
+        If you would like to talk to someone from FabSlabs, please call: Seth
+        Ramirez +1(123)-456-7890
+      </p>
+      <form id="contactForm">
+        <fieldset>
+          <legend>Contact Information</legend>
+
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Enter your name"
+            autofocus
+          /><br />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Enter your email"
+          /><br />
+
+          <label for="birthdate">Birth Date:</label>
+          <input type="date" id="birthdate" name="birthdate" /><br />
+
+          <label>Gender:</label>
+          <label class="radio-inline">
+            <input type="radio" name="gender" value="male" /> Male
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="gender" value="female" /> Female
+          </label>
+
+          <label for="comment">Comment:</label>
+          <textarea
+            id="comment"
+            name="comment"
+            placeholder="Your comment here"
+            rows="4"
+            cols="50"
+          ></textarea
+          ><br />
+
+          <label for="interests">Your Interests:</label>
+          <select id="interests" name="interests">
+            <option value="option1">Wooden Board</option>
+            <option value="option2">Plastic Board</option></select
+          ><br />
+
+          <div class="checkbox-group">
+            <label class="checkbox-inline">
+              <input
+                type="checkbox"
+                id="subscribe"
+                name="subscribe"
+                value="subscribe"
+              />
+              Subscribe to newsletter
+            </label>
+          </div>
+
+          <button type="submit">Submit Request</button>
+          <button type="reset">Reset Form</button>
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <p class="copyright">&copy; Copyright 2099. All Rights Reserved.</p>
+      <p class="student-info">Bhanu Prakash Korrapati - C0916660</p>
+      <a href="mailto:info@chopchronicles.com" class="email-link"
+        >Request Information</a
+      >
+    </footer>
+  </body>
+</html>
